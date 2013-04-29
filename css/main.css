@@ -1,0 +1,362 @@
+/* Resets */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ===== Hack NEO Template ==================================================
+   Author: Persa Zula || http://persazula.com || @pzula
+   ========================================================================== */
+
+body {
+    font: 16px/26px 'Ubuntu', sans-serif;
+    background:#000;
+    padding:20px 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ===================
+    ALL
+   =================== */
+img {
+    width:100%;
+}
+
+img.sponsor {
+    width:20%;
+}
+
+img, a img {
+    border: none!important;
+}
+
+.green {
+    color:#90c73f;
+}
+
+.pink {
+    color:#b93b85;
+}
+
+.blue {
+    color:#399fd3;
+}
+
+.white {
+    color:#fff;
+}
+
+.content {
+    border-radius:8px;
+    background:#399fd3;
+    padding:1% 2%;
+}
+
+.desc {
+    float:left;
+}
+
+
+nav {
+    display:block;
+}
+
+
+.sponsorship {
+    border-radius:8px;
+    background:#b93b85;
+    color:#000;
+}
+
+.sponsorship h2 {
+    text-align: left;
+    padding: 17px 0 0 21px;
+}
+
+/* ==============
+    MOBILE
+   ============== */
+
+h1 {
+    font-size:24px;
+    color:#000;
+}
+
+h2 {
+    font-size:18px;
+}
+
+p.block {
+    display: block;
+    font-size:18px;
+    font-weight:200;
+    line-height: 24px;
+    margin-bottom:10px;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 798px) {
+
+/* ====================
+    WIDE
+   ==================== */
+
+    nav a {
+        display:inline;
+        background: transparent;
+    }
+
+    nav ul li {
+        float:left;
+        border-right: 1px solid #ccc;
+        padding: 0px 1em;
+    }
+
+    nav ul li:last-child {
+        border-right:none;
+    }
+
+    .left {
+        float:left;
+        width:36.45%;
+    }
+
+    .right {
+        float:right;
+        width:61.55%;
+    }
+
+    .content {
+        margin-top:40px;
+    }
+
+
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
