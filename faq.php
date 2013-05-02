@@ -46,21 +46,26 @@
 
             <section class="content">
                 <h2>
-                    Thank you for signing up for HackNEO!
+                   What is National Day of Civic Hacking?
                 </h2>
-                <p>Thank you for signing up for HackNEO! As our event date approaches, 
-                    we will email you with more information regarding the event, 
-                    including how to get here, where to park, and any other relevant news! 
-                    Remember to follow <a href="http://twitter.com/hack4NEO" target="_blank">@hack4NEO</a> on Twitter for more regular updates. 
-                    Please share HackNEO with anyone you think would make a 
-                    great addition to the event. Below are a few social networks you can share easily on: </p>
-
-                <span class='st_googleplus_hcount' displayText='Google +'></span>
-                <span class='st_facebook_hcount' displayText='Facebook'></span>
-                <span class='st_twitter_hcount' displayText='Tweet'></span>
-                <span class='st_linkedin_hcount' displayText='LinkedIn'></span>
-                <span class='st_pinterest_hcount' displayText='Pinterest'></span>
-                <span class='st_email_hcount' displayText='Email'></span>
+              <p>
+                National Day of Civic Hacking is a national event that will take place June 1-2, 2013, and HackNEO is our local event taking place in Akron, Ohio. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
+                <br>
+The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live.
+                </p>
+                <h2>
+                    Who can participate in the National Day of Civic Hacking?
+                </h2>
+                <p>
+                    Anyone can participate in National Day of Civic Hacking. It requires individuals with a broad range of skills. We are looking for engineers, technologists, scientists, designers, artists, educators, students, entrepreneurs – anyone who has a passion for changing their community and is willing to contribute.
+                </p>
+                <h2>
+                    Are you looking for sponsors?</h2>
+                <p>
+Yes, we are looking for organizations who share our passion for improving the world around us and want to help make the National Day of Civic Hacking a reality in Northeast Ohio. Please contact persa@codeforsummitcounty.org for sponsorship information.
+                </p>
+                <h2>Some people have a negative association with "hacking", how do you clarify the difference to them?</h2>
+                <p>To us, a hacker is someone who uses a minimum of resources and a maximum of brainpower and ingenuity to create, enhance or fix something. Although in some circumstances it is used in a negative sense, the term is not inherently negative, nor does it even have to be related to technology.</p>
 
                 <br>
 

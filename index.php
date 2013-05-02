@@ -43,14 +43,14 @@
         </div>
 
         <div class="right">
-<!--             <nav>
+           <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">What is Civic Hacking?</a></li>
-                    <li><a href="#">Become a Sponsor</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="faq.php">Explain this hacking thing</a></li>
+                    <!-- <li><a href="#">Become a Sponsor</a></li>
+                    <li><a href="#">Contact</a></li> -->
                 </ul>
-            </nav> -->
+            </nav> 
 
             <section class="content">
                 <?php include "include/form.html"; ?>
