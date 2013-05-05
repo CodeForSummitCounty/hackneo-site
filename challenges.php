@@ -34,40 +34,46 @@
 
             <nav class="page">
                 <ul>
-                    <li><h2 class="green">Questions</h2></li>
-                    <li><a href="#what">What is Civic Hacking?</a></li>
-                    <li><a href="#who">Who can participate?</a></li>
-                    <li><a href="#sponsors">Are you looking for sponsors?</a></li>
-                    <li><a href="#hacking">How do you feel about "hacking"?</a></li>
+                    <li><h2 class="green">Data Challenges</h2></li>
+                    <li><a href="#mapping">Mapping the Parks</a></li>
+                    <li><a href="#census">Census American Community Challenge</a></li>
+                    <li><a href="#wiki">SummitWiki: Content from Local Experts</a></li>
                 </ul>
             </nav>
         </div>
 
         <div class="center">
             <section class="content">
-                <h2><a name="what">
-                   What is National Day of Civic Hacking?</a>
+                <h2><a name="mapping">
+                   Mapping the Parks</a>
                 </h2>
-              <p>
-                National Day of Civic Hacking is a national event that will take place June 1-2, 2013, and HackNEO is our local event taking place in Akron, Ohio. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
-                <br>
-The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live.
-                </p>
-                <h2><a name="who">
-                    Who can participate in the National Day of Civic Hacking?</a>
+                <u>Skill Level: Intermediate to Advanced</u>
+                <p>Looking for a challenge as a designer, developer, or local parks expert? In this challenge, we will be 
+                    working with local parks data to join and clean up datasets, fix bugs, propose user interface design changes, and 
+                    identify local points of interest and entrances using aerial photography and GIS in our parks system for our region's mapping application. 
+                <a href="http://maps.clemetparks.com" target="_blank">See a similar park application</a></p>
+                
+                <h2><a name="census">
+                    Census American Community Challenge</a>
                 </h2>
-                <p>
-                    Anyone can participate in National Day of Civic Hacking. It requires individuals with a broad range of skills. We are looking for engineers, technologists, scientists, designers, artists, educators, students, entrepreneurs, local subject experts – anyone who has a passion for changing their community and is willing to contribute.
-                </p>
-                <h2><a name="sponsors">
-                    Are you looking for sponsors?</a></h2>
-                <p>
-Yes, we are looking for organizations who share our passion for improving the world around us and want to help make the National Day of Civic Hacking a reality in Northeast Ohio. Please contact persa@codeforsummitcounty.org for sponsorship information.
-                </p>
-                <h2><a name="hacking">Some people have a negative association with "hacking", how do you clarify the difference to them?</a></h2>
-                <p>To us, a hacker is someone who uses a minimum of resources and a maximum of brainpower and ingenuity to create, enhance or fix something. Although in some circumstances it is used in a negative sense, the term is not inherently negative, nor does it even have to be related to technology.</p>
+                <u>Skill Level: Beginner to Advanced</u>
+                <p>Looking to start fresh to brainstorm, design, and develop a prototype application using open data, made available by the Census Bureau, in two days? This challenge
+                    is for you! </p>
+                <p>(1) Develop an application that helps business and local governments learn about the socio-economic characteristics of a community to enable evidence-driven decisions 
+                    that foster local economic development and/or job creation OR (2) develop an application that helps local governments plan for disaster recovery by knowing who lives 
+                    and works in a community.
+                <a href="http://www.hackforchange.org/challenge/census-american-community-challenge" target="_blank">Learn more about the Census challenge</a></p> 
 
-                <br>
+                <h2><a name="wiki">
+                    SummitWiki: Content from Local Experts</a></h2>
+                <u>Skill Level: Beginner to Intermediate</u>
+                <p>Do you have a lot of local knowledge about Summit County? This challenge is for you! We are looking for content to fill SummitWiki, a local wiki (like that of Wikipedia)
+                    documenting all things Summit County, and we need your expertise to fill in the blanks! SummitWiki started in late February of this year, and we would like to use it to
+                    showcase all of the great places and great things to do in our area. We aspire to have 500 well-written wiki pages by the end of the year. If you need inspiration, just 
+                    browse around <a href="https://scruzwiki.org/" target="_blank">Santa Cruz's wiki</a>.
+                    <br />
+                <a href="http://summitwiki.org" target="_blank">See SummitWiki in it's infancy</a></p>
+                
 
             </section>
         </div>

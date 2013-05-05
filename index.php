@@ -35,26 +35,22 @@
             </header>
             <article>
                 <h2 class="green">Developers, designers, writers, community members, computer wizards, park lovers, and data geeks:</h2>
-                <p class="block white">Join us for this free event on the National Day of Civic Hacking and help us use open data to build a mapping app for our regional parks system!</p>
+                <p class="block white">Join us for this free event on the National Day of Civic Hacking and help us use open data to work on one of our Data Challenges!</p>
                 <p class="block white">Breakfast and lunch provided. All participants receive an event tshirt and other goodies</p>
                 <p class="time block green">June 1st &amp; 2nd, 2013<br />9:30 am - 4:00pm</p>
                 <p class="address block blue">Summit ArtSpace<br />140 East Market Street<br />Akron, OH 44308</p>
             </article>
         </div>
 
-        <div class="right">
-           <nav>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="faq.php">Explain this hacking thing</a></li>
-                    <!-- <li><a href="#">Become a Sponsor</a></li>
-                    <li><a href="#">Contact</a></li> -->
-                </ul>
-            </nav> 
+        <div class="center">
 
             <section class="content">
                 <?php include "include/form.html"; ?>
             </section>
+        </div>
+
+        <div class="right">
+            <?php include "include/nav.html"; ?>
         </div>
     </div>
 

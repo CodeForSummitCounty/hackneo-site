@@ -1,3 +1,5 @@
+
+
 /* ----- Logo ----- */
 
 #logo a {
@@ -67,12 +69,11 @@ html{
 /* ----- Typography ----- */
 .wufoo .info h2{
 	font-size:160%;
-	font-family:'Ubuntu', sans-serif;
+	font-family:inherit;
 	font-style:normal;
 	font-weight:normal;
 	color:#000000;
-	padding-bottom:20px;
-	border-bottom:1px solid #000;
+
 }
 .wufoo .info div{
 	font-size:95%;
@@ -97,11 +98,10 @@ html{
 }
 
 .wufoo label.desc, .wufoo legend.desc{
-	font-size:100%;
-	font-family:'Ubuntu', sans-serif;
+	font-size:95%;
+	font-family:inherit;
 	font-style:normal;
 	font-weight:bold;
-	text-align:right;
 	color:#444444;
 }
 
@@ -111,7 +111,6 @@ html{
 	font-style:normal;
 	font-weight:normal;
 	color:#444444;
-	text-align:left;
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
 	font-style:normal;
@@ -128,7 +127,6 @@ html{
 .wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{
 	font-family:inherit;
 	color:#444444;
-	text-align:left;
 }
 .safari .wufoo input.file{ /* Webkit */
 	font-size:100%;
@@ -152,11 +150,14 @@ li.leftThird small, li.middleThird small, li.rightThird small,
 /* ----- Button Styles ----- */
 
 .wufoo input.btTxt{
-	padding:15px;
-}
+    background: #90c73f;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 40px;
+    margin-left:100px;
+    font-weight: bold;
+    text-transform: uppercase;
 
-.leftLabel .buttons, .rightLabel .buttons {
-	padding-left:44%;
 }
 
 /* ----- Highlight Styles ----- */
@@ -395,9 +396,6 @@ a.powertiny b, a.powertiny em{
 	}
 	a.powertiny b, a.powertin em{
 		color:#1a1a1a !important;
-	}
-	.leftLabel li, .rightLabel li {	
-	width: 90% !important;
 	}
 }
 

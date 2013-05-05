@@ -121,7 +121,7 @@ nav {
 
 .sponsorship {
     border-radius:8px;
-    background:#b93b85;
+    background:#90C73F;
     color:#000;
 }
 
@@ -164,8 +164,9 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-weight: 500;
+    font-size:16px;
     color: white;
-    background: #e44d26;
+    background: #b93b85;
 }
 
 nav a:hover,
@@ -176,6 +177,20 @@ nav a:visited {
 nav a:hover {
     text-decoration: underline;
 }
+
+nav h2 {
+    text-align: center;
+}
+
+nav.page a {
+    background: #90c73f;
+    color:#000;
+}
+
+.wrapper .left, .wrapper .center, .wrapper .right {
+    float:none;
+}
+
 
 /* ==============
     MOBILE: Main
@@ -195,33 +210,32 @@ nav a:hover {
     WIDE
    ==================== */
 
-    nav a {
-        display:inline;
-        background: transparent;
-    }
 
-    nav ul li {
+
+    .wrapper .left {
         float:left;
-        border-right: 1px solid #ccc;
-        padding: 0px 1em;
+        width:30%;
+        margin-right:2%;
     }
 
-    nav ul li:last-child {
-        border-right:none;
-    }
-
-    .left {
+    .wrapper .center {
         float:left;
-        width:36.45%;
+        width:48%;
+        max-width:455px;
     }
 
-    .right {
-        float:right;
-        width:61.55%;
+    .wrapper .right {
+        float:left;
+        width:20%;
+        margin-top:25px;
     }
 
     .content {
-        margin-top:40px;
+        margin-top:10px;
+    }
+
+    #container {
+        max-width:450px;
     }
 
 
